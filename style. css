@@ -1,0 +1,251 @@
+body{
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#f4f4f4;
+}
+
+header{
+    background:linear-gradient(#55d5ff,#5582ff,#404eff);
+    color:white;
+    text-align:center;
+    padding:80px 20px;
+}
+
+h1{
+    font-size:36px;
+}
+
+p{
+    font-size:20px;
+}
+
+button{
+    background:white;
+    color:#0d6efd;
+    border:3px solid black;
+    padding:12px 25px;
+    font-size:20px;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ddd;
+}
+#about{
+    padding:50px 20px;
+    text-align:center;
+    background:white;
+}
+
+#about h2{
+    color:#0d6efd;
+    font-size:32px;
+}
+
+#about p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.8;
+    font-size:18px;
+}
+#skills{
+    background:#f4f4f4;
+    padding:50px 20px;
+    text-align:center;
+}
+
+.skill{
+    margin:20px auto;
+    width:80%;
+}
+
+progress{
+    width:100%;
+    height:20px;
+}
+#education{
+    padding:50px 20px;
+    text-align:center;
+    background:white;
+}
+
+.edu-card{
+    width:80%;
+    margin:auto;
+    padding:20px;
+    border:2px solid #0d6efd;
+    border-radius:10px;
+}
+#projects{
+    background:#f4f4f4;
+    padding:50px 20px;
+    text-align:center;
+    
+}
+
+.project-card{
+    background:white;
+    width:80%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border:2px solid #0d6efd;
+}
+#contact{
+    background:white;
+    padding:50px 20px;
+    text-align:center;
+    
+}
+
+#contact h2{
+    color:#0d6efd;
+    
+}
+
+#contact p{
+    font-size:18px;
+    margin:10px 0;
+}
+footer{
+    
+    background:#0d6efd;
+    color:white;
+    text-align:center;
+    padding:10px;
+    
+    
+}
+nav{
+    background:#222;
+    padding:10px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:15px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+@media (max-width:768px){
+
+    
+        
+    
+
+    h1{
+        font-size:40px;
+   
+}
+    
+
+    h2{
+        font-size:30px;
+    }
+
+    .project-card,
+    .edu-card,
+    .skill{
+        width:90%;
+    }
+
+    button{
+        width:80%;
+    }
+
+}
+.profile{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    object-fit:cover;
+    object-position:center;
+    border:4px solid white;
+    margin-bottom:25px;
+}
+.certificate-card{
+    background:white;
+    color:black;
+    width:90%;
+    margin:10px auto;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border:2px solid #0d6efd;
+}
+.internship-card{
+    background:#ffffff;
+    color:#000;
+    width:90%;
+    margin:20px auto;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+    border:2px solid #0d6efd;
+}
+header,
+section{
+    animation: fadeIn 1.2s ease;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(30px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+.skill-bar{
+    width:100%;
+    height:12px;
+    background:#ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.html{
+    width:95%;
+    height:100%;
+    background:#0d6efd;
+    border-radius:10px;
+}
+.skill-bar{
+    width:100%;
+    height:12px;
+    background:#ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.css{
+    width:90%;
+    height:100%;
+    background:#0d6efd;
+    border-radius:10px;
+}
+.skill-bar{
+    width:100%;
+    height:12px;
+    background:#ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.javascript{
+    width:80%;
+    height:100%;
+    background:#0d6efd;
+    border-radius:10px;
+}
