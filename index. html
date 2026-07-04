@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mallika Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
+    
+</nav>
+<header>
+    <img src="images/profile.jpg" alt="Mallika" class="profile">
+    <h1>Hi, I'm Mallika 👋</h1>
+    <p>B.E CSE student</p>
+
+    <button>View My Projects</button>
+</header>
+<section id="about">
+    <h2>About Me</h2>
+
+    <p>
+        I am Mallika, a pre-final year B.E. Computer Science Engineering student.I am passionate about learning new technologies and improving my skills in web development 
+    </p>
+</section>
+<section id="skills">
+    <h2>My Skills</h2>
+
+    <div class="skill">
+        <h3>HTML</h3>
+    <div class="skill-bar">
+        <div class="html">
+            
+        </div>
+    </div>
+</div>
+    
+
+    <div class="skill">
+        <h3>CSS</h3>
+        <div class="skill-bar">
+            <div class="css">
+                
+            </div>
+        </div>
+    </div>
+
+    <div class="skill">
+        <h3>JavaScript</h3>
+        <div class="skill-bar">
+            <div class="javascript">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<section id="education">
+    <h2>Education</h2>
+
+    <div class="edu-card">
+        <h3>B.E. Computer Science and Engineering</h3>
+        <p>Pre-Final Year Student</p>
+        <p>Renganayagi varatharaj college of engineering</p>
+    </div>
+</section>
+<section id="projects">
+    <h2>My Projects</h2>
+
+    <div class="project-card">
+        <h3>Personal Portfolio</h3>
+        <p>A responsive portfolio website using HTML, CSS and JavaScript.</p>
+    </div>
+
+    <div class="project-card">
+        <h3>calculater</h3>
+        <p>build a basic calculater with responsive design.</p>
+    </div>
+    <div class="project-card">
+        <h3>mobile store website</h3>
+        <p>i was build a responsive mobile store using HTML, CSS, Javascript</p>
+    </div>
+    <div class="project-card">
+        <h3>job application form</h3>
+        <p>i was build a simple job apply form using HTML,CSS, Javascript</p>
+    </div>
+</section>
+<section id="certificates">
+
+<h2>Certificates</h2>
+
+<div class="certificate-card">
+    <h3>full stack development massterclass</h3>
+    <p>Completed HTML, CSS and JavaScript, react.js,mongodb Fundamentals.contected by Novitech</p>
+</div>
+
+<div class="certificate-card">
+    <h3>DSA boot camp</h3>
+    <p>completed 2hourse bootcamp section contected by Novitech</p>
+</div>
+</section>
+<section id="internship">
+
+<h2>Internship</h2>
+
+<div class="internship-card">
+    <h3>full stack development Intern</h3>
+    <p><strong>Company:</strong> Bluon Tech, Kovilpatti</p>
+    <p><strong>Duration:</strong> 15 Days</p>
+    <p>Worked on HTML, CSS and JavaScript projects during the internship.</p>
+</div>
+
+</section>
+<section id="contact">
+    <h2>Contact Me</h2>
+
+    <p><strong>Name:</strong> Mallika</p>
+    <p><strong>Email:</strong> mallika@email.com</p>
+    <p><strong>Phone:</strong> +91 9876543210</p>
+
+<p>GitHub: <a href="#">Coming Soon</a></p>
+
+<p>LinkedIn: <a href="#">Coming Soon</a></p>
+
+    <button>Contact Me</button>
+</section>
+<footer>
+    <p>© 2026 Mallika. All Rights Reserved.</p>
+    
+</footer>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
